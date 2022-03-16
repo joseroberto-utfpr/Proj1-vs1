@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "Avenir Roman";
+    src: url("avenir-roman.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+   padding-top: 70px;
+    background-image: url("imagenscss/original.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw; /* toda area visivel, view port */
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+
+.titulo {
+    font-family: "Avenir Roman", sans-serif;
+    padding-bottom: 24px;
+    margin-left: -70px;
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+
+.logo {
+max-width: 320px;
+    
+}
+
+.hero {
+    padding-bottom: 170px;
+    padding-left: 210px;
+    background-repeat: no-repeat;
+}
+
+.botao-entrar {
+    margin-bottom: 720px;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-right: 40px;
+   
+}
+.entrar  {
+   font-family: "Avenir Roman", sans-serif;
+   font-size: 18px;
+   color: #ffff;
+   border: 1px solid silver;
+   border-radius: 4px;
+   background-color: transparent;
+   height: 50px;
+   padding-left: 16px;
+   padding-right: 16px;
+   cursor: pointer;
+ 
+}
+
+.botao-assine {
+padding-top: 40px;
+
+}
+
+.assine {
+color: #f9f9f9;
+font-family: "Avenir Roman",sans-serif;
+background: #7b00d6;
+width: 700px;
+height: 68px;
+cursor: pointer;
+font-size: 18px;
+line-height: 18px;
+
+}
+
+.small-text {
+   color: #f9f9f9;
+   padding-left: 2px;
+}
+
+.link{
+    font-family: "Avenir Roman",sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+    padding-left: 35px;
+    text-decoration: underline;
+
+}
+
+.link1 {
+font-family: "Avenir Roman",sans-serif;
+    cursor: pointer;
+    color: #f9f9f9;
+    text-align: inherit;
+    font-size: 16px;
+    line-height: 26px;
+    list-style: none;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .2px;
+    background-color: transparent;
+    border: none;
+    padding-top: 20px;
+    text-decoration: underline;
+}
+

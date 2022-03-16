@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\disneycss\estilo.css">
+    <link rel="stylesheet" href="js\disneyjs\func.js">
+    <title>Disney+ | As melhores histórias em um só lugar!</title>
+
+</head>
+
+<body>
+    <div class="hero">
+        <h1 class="titulo">
+            As melhores histórias em um só lugar.
+        </h1>
+        <div class="format-img"></div>
+        <img src="imagens\logo.svg" class="logo" alt="disneyplus">
+
+        <div class="botao-assine">
+            <a href="https://www.disneyplus.com/pt-br/sign-up?type=bundle"><button class="assine">ASSINE A OFERTA
+                    COMBO+</button></a>
+        </div>
+
+        <p>
+
+            <span class="small-text">
+                <a href="https://www.disneyplus.com/pt-br/sign-up?type=bundle"><button class="link">Assinar somente o
+                        Disney+
+                        mensal</button></a>
+            </span>
+
+            <span class="small-text"> | </span>
+
+            <span class="small-text">
+                <a href="https://www.disneyplus.com/pt-br/sign-up?type=bundle"><button class="link1">Assinar somente o
+                        Disney+
+                        anual</button></a>
+            </span>
+        </p>
+
+    </div>
+    <nav class="botao-entrar">
+        <span>
+            <a href="https://www.disneyplus.com/login"><button class="entrar">ENTRAR</button></a>
+        </span>
+    </nav>
+</body>
+
+</html>
